@@ -1,0 +1,10 @@
+pkg install php
+pkg install curl
+pkg install openssh 
+apt update && apt upgrade
+apt install git 
+git clone https://github.com/Ethical-Hacking-Zone/shellphish
+cd shellphish
+unzip sites.zip
+chmod +x shellphish.sh
+bash shellphish.sh
